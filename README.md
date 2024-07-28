@@ -13,8 +13,8 @@ A simple web-based WYSIWYG web page builder inspired by WordPress and Wix. The b
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/my-wysiwyg-builder.git
-   cd my-wysiwyg-builder
+   git clone https://github.com/Divansu-Attri/WYSIWYG-Builder
+   cd WYSIWYG-Builder
  2. Install Dependencies:
     npm install
  3. Run the development server:
@@ -34,4 +34,4 @@ A simple web-based WYSIWYG web page builder inspired by WordPress and Wix. The b
 - React
 - react-dnd
 - react-dnd-html5-backend
-- draft-js
+- react-quill

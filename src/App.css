@@ -1,0 +1,67 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.editor {
+  display: flex;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.toolbar {
+  width: 20%;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  background-color: white;
+}
+
+.toolbar-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.canvas {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  position: relative;
+  padding-bottom: 100px;
+}
+.preview{
+  max-width: 100%;
+  padding-bottom: 0;
+}
+
+.text-box {
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.image-component,
+.button-component {
+  padding: 15px 25px;
+  margin: 15px 0;
+}
+
+.alBox{
+  background: lightgray;
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 11px;
+}
+.alBoxActive{
+
+  background: blue;
+  color: white;
+
+}

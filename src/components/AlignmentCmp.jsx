@@ -13,17 +13,17 @@ export default function AlignmentCmp({alignment,setAlignment}) {
 
             <div 
             onClick={()=>setAlignment("flex-start")}
-            className={`alBox ${alignment == "flex-start" && "alBoxActive"}`}>
+            className={`alBox ${alignment === "flex-start" && "alBoxActive"}`}>
                 left
             </div>
             <div 
             onClick={()=>setAlignment("center")}
-            className={`alBox ${alignment == "center" && "alBoxActive"}`}>
+            className={`alBox ${alignment === "center" && "alBoxActive"}`}>
                 center
             </div>
             <div 
             onClick={()=>setAlignment("flex-end")}
-            className={`alBox ${alignment == "flex-end" && "alBoxActive"}`}>
+            className={`alBox ${alignment === "flex-end" && "alBoxActive"}`}>
                 right
             </div>
       

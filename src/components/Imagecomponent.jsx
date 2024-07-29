@@ -22,7 +22,7 @@ const ImageComponent = ({ id, isPreview }) => {
     {
       (src) ?
       <div style={{display:"flex",width:"100%",position:"relative",justifyContent: alignment || "flex-start" }}>
-        <img src={src} style={{width:"auto"}} />
+        <img src={src} style={{width:"auto"}} alt='description' />
         {
           !isPreview &&
           <AlignmentCmp alignment={alignment} setAlignment={setAlignment} />
@@ -36,7 +36,7 @@ const ImageComponent = ({ id, isPreview }) => {
         width:"100%", 
         background:"gainsboro",
         position:"relative",
-        background:"url('/demo.png')",
+        backgroundImage:"url('/demo.png')",
         backgroundSize:"300px",
         backgroundPosition:"center",
         backgroundRepeat:"no-repeat",

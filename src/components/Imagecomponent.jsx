@@ -59,10 +59,3 @@ const ImageComponent = ({ id, isPreview }) => {
 };
 
 export default ImageComponent;
-
-
-//Summary
-//ImageComponent: Ye component ek draggable image element ko represent karta hai jo Canvas par specific position par render hota hai.
-//Image Upload: handleImageUpload function ke through user image upload kar sakta hai aur image ko src state me set kiya jata hai. Jab image upload hota hai, to img element render hota hai jo image ko display karta hai.
-//Positioning: left aur top props se image component ki position set ki jati hai.
-//Is code ka goal hai ki user ek image upload kar sake aur us image ko Canvas par specific position par display kar sake.

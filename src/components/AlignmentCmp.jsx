@@ -30,3 +30,4 @@ export default function AlignmentCmp({alignment,setAlignment}) {
     </div>
   )
 }
+

@@ -52,3 +52,4 @@ const Canvas = ({isPreview,canvasColor}) => {
 };
 
 export default Canvas;
+
